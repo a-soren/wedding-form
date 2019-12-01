@@ -4,6 +4,8 @@ import "./App.css";
 
 const Card = styled.main`
   background-color: #660000;
+  color: #b3d9ff;
+  font-family: sans-serif;
 `;
 
 function App() {
