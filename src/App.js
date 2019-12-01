@@ -1,6 +1,10 @@
 import React from "react";
-import { styled } from "styled-components";
+import styled from "styled-components";
 import "./App.css";
+
+const Card = styled.main`
+  background-color: #660000;
+`;
 
 function App() {
   return (
