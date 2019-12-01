@@ -2,15 +2,9 @@ import React from "react";
 import { styled } from "styled-components";
 import "./App.css";
 
-let Card = styled.main`
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #660000;
-  color: #b3d9ff;
-`;
-
 function App() {
   return (
-    <Card>
+    <main>
       <h1>Please Fill Out The Form Below</h1>
       <h2>This Will Be How We Address Your Invitations!</h2>
       <p>
@@ -24,7 +18,7 @@ function App() {
       <input type="text" name="zip" placeholder="Your Zip Code" />
       <br></br>
       <button type="submit">Submit Your Address</button>
-    </Card>
+    </main>
   );
 }
 
