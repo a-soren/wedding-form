@@ -14,8 +14,7 @@ const Input = styled.input`
 `;
 const Button = styled.button`
   width: 75px;
-  display: flex;
-  justify-content: center;
+  margin-left: 75px;
 `;
 
 function App() {
