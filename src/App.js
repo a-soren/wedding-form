@@ -8,7 +8,7 @@ function App() {
       <h1>Please Fill Out The Form Below</h1>
       <h2>This Will Be How We Address Your Invitations!</h2>
       <p>
-        Please use your Mailing Address and Name's you'd like them addressed to.
+        Please use your Mailing Address and Names you'd like them addressed to.
       </p>
       <br />
       <input type="text" name="name" placeholder="Your Name" />
@@ -16,7 +16,7 @@ function App() {
       <input type="text" name="city" placeholder="Your City" />
       <input type="text" name="state" placeholder="Your State" />
       <input type="text" name="zip" placeholder="Your Zip Code" />
-
+      <br></br>
       <button type="submit">Submit Your Address</button>
     </main>
   );
