@@ -9,9 +9,13 @@ const Card = styled.main`
 `;
 const Input = styled.input`
   width: 75%;
+  padding: 15%;
+  margin-bottom: 25px;
 `;
 const Button = styled.button`
   width: 75px;
+  display: "flex";
+  justify-content: "center";
 `;
 
 function App() {
