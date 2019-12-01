@@ -9,8 +9,7 @@ const Card = styled.main`
 `;
 const Input = styled.input`
   width: 350px;
-  padding: 15px;
-  margin-bottom: 25px;
+  margin: 25px;
 `;
 const Button = styled.button`
   width: 75px;
