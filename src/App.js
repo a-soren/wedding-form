@@ -9,12 +9,13 @@ const Card = styled.main`
 `;
 const Input = styled.input`
   width: 350px;
+  height: 50px;
   margin: 25px;
 `;
 const Button = styled.button`
   width: 75px;
-  display: "flex";
-  justify-content: "center";
+  display: flex;
+  justify-content: center;
 `;
 
 function App() {
