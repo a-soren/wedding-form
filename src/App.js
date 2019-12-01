@@ -11,7 +11,7 @@ const Input = styled.input`
   width: 75%;
 `;
 const Button = styled.button`
-  width: 35px;
+  width: 75px;
 `;
 
 function App() {
