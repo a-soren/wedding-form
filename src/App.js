@@ -8,8 +8,8 @@ const Card = styled.main`
   font-family: "sans-seriff";
 `;
 const Input = styled.input`
-  width: 75%;
-  padding: 15%;
+  width: 350px;
+  padding: 15px;
   margin-bottom: 25px;
 `;
 const Button = styled.button`
