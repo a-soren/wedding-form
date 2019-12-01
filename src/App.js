@@ -14,6 +14,7 @@ const Input = styled.input`
 `;
 const Button = styled.button`
   width: 155px;
+  height: 45px;
   margin-left: 75px;
 `;
 
