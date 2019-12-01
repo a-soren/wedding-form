@@ -1,12 +1,12 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
-import './App.css';
+import React from "react";
+import { useEffect, useState } from "react";
+import "./App.css";
 
 function App() {
   const [date, setDate] = useState(null);
   useEffect(() => {
     async function getDate() {
-      const res = await fetch('/api/date');
+      const res = await fetch("/api/date");
       const newDate = await res.text();
       setDate(newDate);
     }
@@ -14,42 +14,19 @@ function App() {
   }, []);
   return (
     <main>
-      <h1>Create React App + Go API</h1>
-      <h2>
-        Deployed with{' '}
-        <a
-          href="https://zeit.co/docs"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          ZEIT Now
-        </a>
-        !
-      </h2>
+      <h1>Please Fill Out The Form Below</h1>
+      <h2>This Will Be How We Address Your Invitations!</h2>
       <p>
-        <a
-          href="https://github.com/zeit/now-examples/tree/master/create-react-app-functions"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          This project
-        </a>{' '}
-        was bootstrapped with{' '}
-        <a href="https://facebook.github.io/create-react-app/">
-          Create React App
-        </a>{' '}
-        and contains three directories, <code>/public</code> for static assets,{' '}
-        <code>/src</code> for components and content, and <code>/api</code>{' '}
-        which contains a serverless <a href="https://golang.org/">Go</a>{' '}
-        function. See{' '}
-        <a href="/api/date">
-          <code>api/date</code> for the Date API with Go
-        </a>
-        .
+        Please use your Mailing Address and Name's you'd like them addressed to.
       </p>
       <br />
-      <h2>The date according to Go is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
+      <input type="text" name="name" placeholder="Your Name" />
+      <input type="text" name="address" placeholder="Your Street Address" />
+      <input type="text" name="city" placeholder="Your City" />
+      <input type="text" name="state" placeholder="Your State" />
+      <input type="text" name="zip" placeholder="Your Zip Code" />
+
+      <button type="submit">Submit Your Address</button>
     </main>
   );
 }
