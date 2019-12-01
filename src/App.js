@@ -7,6 +7,12 @@ const Card = styled.main`
   color: #b3d9ff;
   font-family: "sans-seriff";
 `;
+const Input = styled.input`
+  width: 75%;
+`;
+const Button = styled.button`
+  width: 35px;
+`;
 
 function App() {
   return (
@@ -17,13 +23,13 @@ function App() {
         Please use your Mailing Address and Names you'd like them addressed to.
       </p>
       <br />
-      <input type="text" name="name" placeholder="Your Name" />
-      <input type="text" name="address" placeholder="Your Street Address" />
-      <input type="text" name="city" placeholder="Your City" />
-      <input type="text" name="state" placeholder="Your State" />
-      <input type="text" name="zip" placeholder="Your Zip Code" />
+      <Input type="text" name="name" placeholder="Your Name" />
+      <Input type="text" name="address" placeholder="Your Street Address" />
+      <Input type="text" name="city" placeholder="Your City" />
+      <Input type="text" name="state" placeholder="Your State" />
+      <Input type="text" name="zip" placeholder="Your Zip Code" />
       <br></br>
-      <button type="submit">Submit Your Address</button>
+      <Button type="submit">Submit Your Address</Button>
     </Card>
   );
 }
