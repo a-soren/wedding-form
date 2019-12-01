@@ -13,7 +13,7 @@ const Input = styled.input`
   margin: 25px;
 `;
 const Button = styled.button`
-  width: 75px;
+  width: 155px;
   margin-left: 75px;
 `;
 
